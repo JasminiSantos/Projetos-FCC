@@ -1,0 +1,109 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+body{
+  text-align: center;
+  background: linear-gradient(to right,#EE82EE,#BA55D3,#9932CC);
+  color: white;
+}
+h1{
+  margin: 60px 0;
+  font-size: 22px;
+}
+#me{
+  width: 20%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+img{
+  width: 40vw;;
+}
+figcaption{
+  font-size: 22px;
+  margin: 15px 0;
+}
+a{
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
+}
+a:hover,li:hover{
+  color: yellow;
+}
+nav{
+  background: #DB7093;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+#navbar{
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+main{
+    margin: 15px 0 150px 0;
+}
+p{
+    margin: 15px auto;
+    font-size: 20px;
+    width: 700px;
+    text-align: justify;
+    width: 60vw;
+}
+#contact{
+  margin-top: 100px;
+}
+#contato-email{
+  display: flex;
+  flex-direction: column;
+  margin: 7.5px auto;
+  width: 260px;
+}
+#email, #nome{
+  margin: 7.5px 0;
+  border-radius: 7px;
+  border-style: none;
+  padding: 2.5px 0;
+}
+#mensagem{
+  margin: 15px 0;
+  border-radius: 7px;
+  border-style: none;
+  padding: 15px;
+}
+#botao-enviar{
+  background: #DB7093;
+  color: white;
+  width: 70px;
+  padding: 2.5px;
+  border-radius: 7px;
+  border-style: none;
+  margin: auto;
+}
+#botao-enviar:hover{
+  background: #d44f7c;
+}
+
+@media (max-width: 600px)
+{
+  p{
+    width: 75vw;
+  }
+  img{
+    width: 60vw;
+  }
+  #me{
+    width: 30vw;
+  }
+}
